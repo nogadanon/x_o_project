@@ -1,5 +1,4 @@
 
-
 def create_board() -> list:
     return ['1','2','3','4','5','6','7','8','9']
 
@@ -20,9 +19,7 @@ def get_move(player, board) -> int:
             break
     return int(_choice)
 
-
-
-def make_move(board, position, symbol): #-> list:
+def make_move(board, position, symbol) -> list:
     new_list = board
     new_list.pop(position)
     new_list.insert(position, symbol)
@@ -47,7 +44,7 @@ def check_winner(board, symbol) -> bool:
 def is_tie(board) -> bool:
     return all(i == '❌'  or i == '⭕' for i in board)
 
-def switch_player(current) -> int:
+def switch_player(current) -> str:
     if current == '❌':
         current = '⭕'
     else:
@@ -73,8 +70,7 @@ def play_game() -> str:
             _player = 'draw'
             return _player
 
-
-def scoreboard(total_x, total_o, total_draw, new):
+def scoreboard(total_x, total_o, total_draw, new) -> list:
     if new == '❌':
         total_x += 1
     elif new == '⭕':
@@ -93,7 +89,6 @@ def another_round() -> bool:
             return False
         else:
             print(f"Your answer should be y or n only. Try again")
-
 
 
 

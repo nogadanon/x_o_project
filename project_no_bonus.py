@@ -1,5 +1,4 @@
 
-
 def create_board() -> list:
     return ['1','2','3','4','5','6','7','8','9']
 
@@ -20,14 +19,11 @@ def get_move(player, board) -> int:
             break
     return int(_choice)
 
-
-
-def make_move(board, position, symbol): #-> list:
+def make_move(board, position, symbol) -> list:
     new_list = board
     new_list.pop(position)
     new_list.insert(position, symbol)
     return new_list
-
 
 def check_winner(board, symbol) -> bool:
     for i in range(3):
@@ -54,7 +50,7 @@ def switch_player(current) -> int:
         current = '❌'
     return current
 
-def play_game() -> str:
+def play_game():
     print_board(create_board())
     _player = '⭕'
     new_board = None
@@ -67,44 +63,13 @@ def play_game() -> str:
         print_board(new_board)
         if check_winner(new_board, _player):
             print(f'*** The winner is {_player} ! ***\n')
-            return _player
+            break
         if is_tie(new_board):
             print(f'*** Game over. the result is draw ***\n')
-            _player = 'draw'
-            return _player
+            break
 
 
-def scoreboard(total_x, total_o, total_draw, new):
-    if new == '❌':
-        total_x += 1
-    elif new == '⭕':
-        total_o += 1
-    else:
-        total_draw += 1
-    print(f'X total score: {total_x}\nO total score: {total_o}\nDraw total score: {total_draw}\n')
-    return [total_x, total_o, total_draw]
-
-def another_round() -> bool:
-    while True:
-        x = input('do you want to play again? (y/n): ')
-        if x != 'y' or x != 'n':
-            print("You'r answer shuld be y or n only. Try again")
-        elif x == 'y':
-            return True
-        else:
-            return False
-
-
-
-
-
-
-total_score = [0, 0, 0]
-while True:
-    score = play_game()
-    total_score = scoreboard(total_score[0], total_score[1], total_score[2], score)
-    if not another_round():
-        break
+play_game()
 
 
 
