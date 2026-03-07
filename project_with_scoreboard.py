@@ -25,7 +25,6 @@ def make_move(board, position, symbol) -> list:
     new_list.insert(position, symbol)
     return new_list
 
-
 def check_winner(board, symbol) -> bool:
     for i in range(3):
         if board[i] == board[i + 3] == board[i + 6] == symbol:
@@ -70,7 +69,7 @@ def play_game() -> str:
             _player = 'draw'
             return _player
 
-def scoreboard(total_x, total_o, total_draw, new) -> list:
+def scoreboard(new, total_x, total_o, total_draw) -> list:
     if new == '❌':
         total_x += 1
     elif new == '⭕':
@@ -92,12 +91,9 @@ def another_round() -> bool:
 
 
 
-
-
 total_score = [0, 0, 0]
 while True:
-    score = play_game()
-    total_score = scoreboard(total_score[0], total_score[1], total_score[2], score)
+    total_score = scoreboard(play_game(), total_score[0], total_score[1], total_score[2])
     if not another_round():
         break
 

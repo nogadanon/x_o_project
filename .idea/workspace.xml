@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa25910d-12e0-48b9-8b1e-bef1ce401fc9" name="Changes" comment="">
+    <list default="true" id="aa25910d-12e0-48b9-8b1e-bef1ce401fc9" name="Changes" comment="x_o_game">
       <change beforePath="$PROJECT_DIR$/../homework-01-02-26" beforeDir="false" afterPath="$PROJECT_DIR$/../homework-01-02-26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework_08-02-26" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_08-02-26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework_11-02-26" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_11-02-26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_15-02-26/.idea/homework_15-02-26.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_15-02-26/.idea/homework_15-02-26.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_15-02-26/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_15-02-26/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_15-02-26/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_15-02-26/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_15-02-26/name_city_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_15-02-26/name_city_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_18-02-26/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_18-02-26/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/x_o_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/x_o_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_bonus_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_bonus_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_no_bonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_no_bonus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_bonus_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_with_scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../עבודת בית 25.1.26" beforeDir="false" afterPath="$PROJECT_DIR$/../עבודת בית 25.1.26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../עבודת בית 28.1.26" beforeDir="false" afterPath="$PROJECT_DIR$/../עבודת בית 28.1.26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../תרגול" beforeDir="false" afterPath="$PROJECT_DIR$/../תרגול" afterDir="false" />
@@ -42,9 +35,13 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
+    "Python.new.executor": "Run",
     "Python.project_1.executor": "Run",
+    "Python.project_bonus_2.executor": "Run",
     "Python.project_no_bonus.executor": "Run",
+    "Python.project_with_scoreboard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Noga/OneDrive - האחים מרגולין בע מ/שולחן העבודה/code/x_o_project"
   }
@@ -69,17 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1772714161668</updated>
     </task>
+    <task id="LOCAL-00001" summary="x_o_game">
+      <option name="closed" value="true" />
+      <created>1772800938977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772800938977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="x_o_game" />
+    <option name="LAST_COMMIT_MESSAGE" value="x_o_game" />
   </component>
 </project>
