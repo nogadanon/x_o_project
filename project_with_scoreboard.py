@@ -93,14 +93,8 @@ def another_round() -> bool:
 
 total_score = [0, 0, 0]
 while True:
-    total_score = scoreboard(play_game(), total_score[0], total_score[1], total_score[2])
+    score = play_game()
+    total_score = scoreboard(score, total_score[0], total_score[1], total_score[2])
     if not another_round():
         break
-
-
-
-
-
-
-
 
