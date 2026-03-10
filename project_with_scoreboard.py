@@ -143,7 +143,6 @@ def another_round() -> bool:
             print(f"Your answer should be y or n only. Try again")
 
 
-
 total_score = [0, 0, 0]
 while True:
     score = play_game()
