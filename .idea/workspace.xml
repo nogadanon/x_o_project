@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../homework-01-02-26" beforeDir="false" afterPath="$PROJECT_DIR$/../homework-01-02-26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework_08-02-26" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_08-02-26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework_11-02-26" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_11-02-26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_with_scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_with_scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../עבודת בית 25.1.26" beforeDir="false" afterPath="$PROJECT_DIR$/../עבודת בית 25.1.26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../עבודת בית 28.1.26" beforeDir="false" afterPath="$PROJECT_DIR$/../עבודת בית 28.1.26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../תרגול" beforeDir="false" afterPath="$PROJECT_DIR$/../תרגול" afterDir="false" />
@@ -79,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772871689918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="x_o_game">
+      <option name="closed" value="true" />
+      <created>1772990679621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772990679621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
